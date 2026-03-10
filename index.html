@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playzone Store - Exclusive Gaming Deals</title>
+    <style>
+        /* RESET & BASE STYLES */
+        body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+        table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+        img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+        table { border-collapse: collapse !important; }
+        body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; background-color: #0f0f13; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+        /* THEME VARIABLES */
+        :root {
+            --primary-purple: #8A2BE2;
+            --dark-purple: #4B0082;
+            --neon-cyan: #00FFFF;
+            --bg-dark: #121212;
+            --bg-card: #1E1E24;
+            --text-white: #ffffff;
+            --text-grey: #b3b3b3;
+        }
+
+        /* BUTTON STYLES WITH ANIMATIONS */
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-purple);
+            color: #ffffff !important;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease; /* Added transition for smooth animation */
+        }
+        .btn:hover { 
+            background-color: var(--neon-cyan); 
+            color: #000 !important; 
+            transform: scale(1.05); /* Added scale animation */
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+        }
+
+        /* RESPONSIVE MEDIA QUERIES */
+        @media screen and (max-width: 600px) {
+            .container { width: 100% !important; }
+            .mobile-stack { display: block !important; width: 100% !important; }
+            .mobile-center { text-align: center !important; }
+            .mobile-padding { padding: 20px !important; }
+            .col-50 { width: 100% !important; display: block !important; margin-bottom: 20px; }
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #0f0f13;">
+
+    <!-- MAIN WRAPPER -->
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #0f0f13;">
+        <tr>
+            <td align="center" style="padding: 20px 0;">
+                
+                <!-- CONTAINER -->
+                <table class="container" border="0" cellpadding="0" cellspacing="0" width="600" style="width: 600px; max-width: 600px; background-color: #121212; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 20px rgba(138, 43, 226, 0.2);">
+                    
+                    <!-- 1. HEADER SECTION -->
+                    <tr>
+                        <td align="center" style="padding: 30px 20px; background: linear-gradient(135deg, #1a1a2e 0%, #2d1b4e 100%); border-bottom: 2px solid var(--primary-purple);">
+                            <h1 style="margin: 0; font-size: 28px; color: #ffffff; letter-spacing: 2px; text-transform: uppercase;">
+                                <span style="color: var(--neon-cyan);">Play</span>zone <span style="color: var(--primary-purple);">Store</span>
+                            </h1>
+                            <p style="margin: 10px 0 0 0; color: var(--text-grey); font-size: 14px;">Level Up Your Setup</p>
+                        </td>
+                    </tr>
+
+                    <!-- 2. HERO SECTION -->
+                    <tr>
+                        <td class="mobile-padding" style="padding: 40px 20px; text-align: center;">
+                            <h2 style="margin: 0 0 10px 0; color: var(--neon-cyan); font-size: 24px;">OUT NOW: NovaBlade Keyboard</h2>
+                            <p style="margin: 0 0 20px 0; color: var(--text-grey); font-size: 16px;">Experience lightning-fast response times with our new mechanical switches.</p>
+                            
+                            <!-- REAL IMAGE: Gaming Keyboard -->
+                            <img src="https://images.unsplash.com/photo-1595225476474-87563907a212?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="NovaBlade Keyboard" width="560" style="width: 100%; max-width: 560px; border-radius: 4px; display: block;">
+                            
+                            <div style="margin-top: 25px;">
+                                <span style="font-size: 28px; font-weight: bold; color: #ffffff; margin-right: 15px;">$129.99</span>
+                                <a href="https://playzone.store/products/novablade-keyboard" class="btn">Add to Cart</a>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- 3. FEATURED PRODUCT (2 Column) -->
+                    <tr>
+                        <td class="mobile-padding" style="padding: 0 20px 40px 20px;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td class="col-50" valign="top" width="50%">
+                                        <!-- REAL IMAGE: Gaming Monitor -->
+                                        <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="HyperView Monitor" width="270" style="width: 100%; border-radius: 4px;">
+                                    </td>
+                                    <td class="col-50" valign="top" width="50%" style="padding-left: 20px;">
+                                        <h3 style="margin: 0 0 10px 0; color: #ffffff; font-size: 20px;">HyperView 4K Gaming Monitor</h3>
+                                        <p style="margin: 0 0 15px 0; color: var(--text-grey); font-size: 14px;">Immerse yourself in crystal clear visuals. 144Hz refresh rate and 1ms response time.</p>
+                                        <div style="font-size: 18px; font-weight: bold; color: var(--neon-cyan); margin-bottom: 15px;">$399.00</div>
+                                        <a href="https://playzone.store/products/hyperview-monitor" class="btn" style="font-size: 12px; padding: 10px 20px;">View Details</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- 4. COMBO OFFER SECTION (Updated Logic) -->
+                    <tr>
+                        <td style="background-color: var(--bg-card); padding: 30px 20px; text-align: center; border-top: 1px solid #333; border-bottom: 1px solid #333;">
+                            <h3 style="margin: 0 0 10px 0; color: #ffffff;">Ultimate Battlestation Combo</h3>
+                            <p style="margin: 0 0 20px 0; color: var(--text-grey);">Complete your setup with the Keyboard + Monitor bundle.</p>
+                            
+                            <!-- Updated Price Logic: Old Price -> New Price -->
+                            <div style="margin-bottom: 20px;">
+                                <span style="font-size: 20px; font-weight: bold; color: #666; text-decoration: line-through; margin-right: 10px;">$699.00</span>
+                                <span style="font-size: 32px; font-weight: bold; color: var(--primary-purple);">$599.00</span>
+                            </div>
+                            
+                            <a href="https://playzone.store/bundles/ultimate-combo" class="btn" style="background-color: var(--neon-cyan); color: #000 !important;">Buy Combo Deal</a>
+                        </td>
+                    </tr>
+
+                    <!-- 5. PROMOTION BENEFITS (3 Columns) -->
+                    <tr>
+                        <td class="mobile-padding" style="padding: 40px 20px;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td class="col-50" width="33%" valign="top" style="padding-right: 10px;">
+                                        <div style="text-align: center;">
+                                            <div style="font-size: 40px; margin-bottom: 10px;">💎</div>
+                                            <h4 style="margin: 0 0 5px 0; color: #ffffff;">Epic Savings</h4>
+                                            <p style="margin: 0; color: var(--text-grey); font-size: 12px;">Up to 40% off select gear.</p>
+                                        </div>
+                                    </td>
+                                    <td class="col-50" width="33%" valign="top" style="padding: 0 10px;">
+                                        <div style="text-align: center;">
+                                            <div style="font-size: 40px; margin-bottom: 10px;">⏳</div>
+                                            <h4 style="margin: 0 0 5px 0; color: #ffffff;">One Day Only</h4>
+                                            <p style="margin: 0; color: var(--text-grey); font-size: 12px;">Flash sale ends tonight.</p>
+                                        </div>
+                                    </td>
+                                    <td class="col-50" width="33%" valign="top" style="padding-left: 10px;">
+                                        <div style="text-align: center;">
+                                            <div style="font-size: 40px; margin-bottom: 10px;">🔥</div>
+                                            <h4 style="margin: 0 0 5px 0; color: #ffffff;">Limited Stock</h4>
+                                            <p style="margin: 0; color: var(--text-grey); font-size: 12px;">Grab yours before it's gone.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- 6. POPULAR GAMES SECTION -->
+                    <tr>
+                        <td class="mobile-padding" style="padding: 0 20px 40px 20px;">
+                            <h3 style="margin: 0 0 20px 0; color: #ffffff; text-align: center;">Trending Games</h3>
+                            
+                            <!-- Game 1 -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 20px;">
+                                <tr>
+                                    <td width="120" valign="top">
+                                        <!-- REAL IMAGE: Game Cover Placeholder -->
+                                        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="ShadowForge" width="120" style="border-radius: 4px;">
+                                    </td>
+                                    <td style="padding-left: 15px; vertical-align: middle;">
+                                        <h4 style="margin: 0 0 5px 0; color: #ffffff;">ShadowForge: Legends Awaken</h4>
+                                        <p style="margin: 0 0 10px 0; color: var(--text-grey); font-size: 13px;">Epic RPG adventure.</p>
+                                        <a href="https://playzone.store/games/shadowforge" style="color: var(--neon-cyan); text-decoration: none; font-weight: bold; font-size: 14px;">Buy Now &rarr;</a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- Game 2 -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td width="120" valign="top">
+                                        <!-- REAL IMAGE: Game Cover Placeholder -->
+                                        <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Stellar Drift" width="120" style="border-radius: 4px;">
+                                    </td>
+                                    <td style="padding-left: 15px; vertical-align: middle;">
+                                        <h4 style="margin: 0 0 5px 0; color: #ffffff;">Stellar Drift: Beyond Horizons</h4>
+                                        <p style="margin: 0 0 10px 0; color: var(--text-grey); font-size: 13px;">Space exploration sim.</p>
+                                        <a href="https://playzone.store/games/stellar-drift" style="color: var(--neon-cyan); text-decoration: none; font-weight: bold; font-size: 14px;">Buy Now &rarr;</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- 7. PROMOTIONAL BANNER -->
+                    <tr>
+                        <td style="padding: 0 20px 40px 20px;">
+                            <!-- REAL IMAGE: Gaming Banner -->
+                            <img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Promo Banner" width="600" style="width: 100%; border-radius: 4px; display: block;">
+                        </td>
+                    </tr>
+
+                    <!-- 8. FOOTER -->
+                    <tr>
+                        <td style="background-color: #0a0a0c; padding: 40px 20px; text-align: center; border-top: 1px solid #333;">
+                            <p style="margin: 0 0 20px 0; color: var(--text-grey); font-size: 14px;">
+                                <a href="https://playzone.store" style="color: #ffffff; text-decoration: none; margin: 0 10px;">Shop Online</a> | 
+                                <a href="https://playzone.store/stores" style="color: #ffffff; text-decoration: none; margin: 0
